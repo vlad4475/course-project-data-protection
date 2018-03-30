@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0C558D0-B01C-476C-BCE9-4771CF7EBCEE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Курсовой_проект_Жилманов_В.Ю._3_Des</RootNamespace>
+    <AssemblyName>Курсовой проект Жилманов В.Ю. 3-Des</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConvertBlocks.cs" />
+    <Compile Include="Des.cs" />
+    <Compile Include="KeyGenerator.cs" />
+    <Compile Include="PasswordСonfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordСonfirmation.Designer.cs">
+      <DependentUpon>PasswordСonfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartWindow.Designer.cs">
+      <DependentUpon>StartWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorkWithBinFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkWithBinFile.Designer.cs">
+      <DependentUpon>WorkWithBinFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkWithFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkWithFile.Designer.cs">
+      <DependentUpon>WorkWithFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkWithText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkWithText.Designer.cs">
+      <DependentUpon>WorkWithText.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordСonfirmation.resx">
+      <DependentUpon>PasswordСonfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartWindow.resx">
+      <DependentUpon>StartWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WorkWithBinFile.resx">
+      <DependentUpon>WorkWithBinFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkWithFile.resx">
+      <DependentUpon>WorkWithFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkWithText.resx">
+      <DependentUpon>WorkWithText.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

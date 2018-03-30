@@ -1,0 +1,14 @@
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\bin\Debug\Курсовой проект Жилманов В.Ю. 3-Des.exe.config
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\bin\Debug\Курсовой проект Жилманов В.Ю. 3-Des.exe
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\bin\Debug\Курсовой проект Жилманов В.Ю. 3-Des.pdb
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой проект Жилманов В.Ю. 3-Des.csprojResolveAssemblyReference.cache
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой_проект_Жилманов_В.Ю._3_Des.Properties.Resources.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой проект Жилманов В.Ю. 3-Des.csproj.GenerateResource.Cache
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой проект Жилманов В.Ю. 3-Des.exe
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой проект Жилманов В.Ю. 3-Des.pdb
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой_проект_Жилманов_В.Ю._3_Des.StartWindow.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой_проект_Жилманов_В.Ю._3_Des.WorkWithText.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой_проект_Жилманов_В.Ю._3_Des.WorkWithFile.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой_проект_Жилманов_В.Ю._3_Des.AboutBox.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой_проект_Жилманов_В.Ю._3_Des.WorkWithBinFile.resources
+C:\Users\vlad\Documents\Visual Studio 2013\Projects\Курсовой проект Жилманов В.Ю. 3-Des\Курсовой проект Жилманов В.Ю. 3-Des\obj\Debug\Курсовой_проект_Жилманов_В.Ю._3_Des.PasswordСonfirmation.resources
